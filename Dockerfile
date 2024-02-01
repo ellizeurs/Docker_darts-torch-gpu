@@ -5,6 +5,8 @@ FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime
 RUN pip install --upgrade pip
 RUN pip install darts
 RUN pip install xlrd
+RUN pip install openpyxl
+RUN pip install lxml
 RUN pip install optuna
 RUN pip install ray
 RUN pip install pyswarm
